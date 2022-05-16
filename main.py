@@ -10,7 +10,7 @@ import datetime
 
 
 
-bot = telebot.TeleBot("5381538057:AAFKRdHx6MT-k_YfN4XjqGzOKpkcHL3M8u8")
+bot = telebot.TeleBot("***********************************")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
